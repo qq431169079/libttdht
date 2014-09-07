@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@/libttdht
+
+Name: libttdht
+Description: DHT Libaray from libtorrent
+Version: @VERSION@
+Libs: -L${libdir} -lttdht
+Cflags: -I${includedir}
